@@ -225,4 +225,19 @@
         color: #ff7200;
     }
 
+@media (max-width: 600px){
+    main, nav, icon, menu, logo{
+        padding: 10px;
+    }
+    main{
+        flex-direction: columns;
+        align-items: center;
+    }
+    nav {
+        width: 100%;
+        text-align: center;
+        padding: 10 px;
+    }
+}
+
 
